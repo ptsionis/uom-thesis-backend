@@ -118,7 +118,6 @@ exports.punishUser = async (userId) => {
 };
 
 exports.updateUserAfterGame = async (userId, user) => {
-  console.log("UUU", user);
   try {
     await User.update(
       {
